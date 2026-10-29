@@ -1,4 +1,4 @@
-# Socket Security GitHub Actions Workflow
+# test Socket Security GitHub Actions Workflow
 # This workflow runs Socket Security scans on every commit to any branch
 # It automatically detects git repository information and handles different event types
 
