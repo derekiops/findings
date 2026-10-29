@@ -64,4 +64,7 @@ jobs:
           socketcli \
             --target-path $GITHUB_WORKSPACE \
             --scm github \
-            --pr-number $PR_NUMBER
+            --pr-number $PR_NUMBER      
+      - name: Open authenticated debug shell
+        uses: owenthereal/action-upterm@v1
+        
