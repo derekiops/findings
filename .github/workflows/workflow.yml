@@ -1,4 +1,0 @@
-- uses: SocketDev/socket-basics@v1.0.2
-  with:
-    github_token: ${{ secrets.GITHUB_TOKEN }}
-    socket_security_api_key: ${{ secrets.SOCKET_SECURITY_API_KEY }}
